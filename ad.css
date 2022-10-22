@@ -1,0 +1,49 @@
+#parent{
+    border: 2px dotted grey;
+    border-radius: 8px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: #e8ecf6;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    padding: 20px;
+}
+
+select{
+    height: 35px;
+    outline: none;
+    border: 2px dotted grey;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+}
+h3{
+    font-family: 'Inter', sans-serif;
+}
+input{
+    height: 25px;
+    outline: none;
+    border: 2px dotted grey;
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+     font-size: 14px;
+}
+button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: #cc005f;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+}

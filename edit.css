@@ -1,0 +1,61 @@
+select{
+    height: 35px;
+    outline: none;
+    border: 2px dotted grey;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+}
+h3{
+    font-family: 'Inter', sans-serif;
+}
+
+#year{
+    color: #838a98;
+    font-size: 13px;
+}
+
+
+#price{
+    color: #f4b78a;
+}
+
+ #description{
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+ }
+ label{
+    font-family: 'Inter', sans-serif;
+
+ }
+ #parent{
+    border: 2px dotted grey;
+    border-radius: 8px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: #e8ecf6;
+    padding: 20px;
+ }
+ input{
+    height: 25px;
+    outline: none;
+    border: 2px dotted grey;
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Inter', sans-serif;
+}
+button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: #cc005f;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+}

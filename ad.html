@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ad Cars Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&family=Poppins:wght@300&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./ad.css">
+</head>
+<body>
+    <div id="parent">
+        <h3>Add Cars</h3>
+           <form id="form">
+            <label for="">Select Brands Of Car : </label>  
+            <select  id="cars">
+                <option value="Tata">Tata</option>
+                <option value="BMW">BMW</option>
+                <option value="Nano">Nano</option>
+                <option value="Suzuki">Suzuki</option>
+            </select> <br> <br>
+    
+            <label for="">Select Car Type : </label> 
+            <select id="type">
+                <option value="Manual">Manual</option>
+                <option value="Automated">Automated</option>
+            </select> <br> <br>
+
+            <label for="">Select Year Of Purchase : </label>
+            <select id="year">
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2015">2015</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+
+            </select> <br> <br>
+
+            <label for="">Enter KM Driven : </label>
+            <input type="number"
+            placeholder="Kelometters Driven...."
+            id="driven"
+            > <br> <br>
+
+            <label for="">Enter Car Description : </label>
+            <input type="text"
+            placeholder="Description..."
+             id="description"
+            > <br> <br>
+
+            <label for="">Enter Car Price :</label>
+            <input type="number"
+            placeholder="Price..."
+             id="price"
+            > <br> <br>
+
+            <button title="Click To Add The Car Details">Add Car</button>
+
+           </form>
+    </div>
+</body>
+</html>
+<script src="./ad.js"></script>

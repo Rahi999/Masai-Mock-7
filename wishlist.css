@@ -1,0 +1,56 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 5px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+#delete{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+
+#container > div{
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#delete, #edit, #wishList{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+
+#year{
+    color: #838a98;
+    font-size: 13px;
+}
+#type, #brand, #driven{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    background-color: #eaf3f8;
+    padding: 5px;
+    width: 70%;
+}
+h3{
+    font-family: 'Inter', sans-serif;
+
+}
+#price{
+    color: #f4b78a;
+    font-family: 'Inter', sans-serif;
+
+}
+
+ #description{
+    color: grey;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+ }

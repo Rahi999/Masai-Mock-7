@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Data Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&family=Poppins:wght@300&family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./cars.css">
+</head>
+<body>
+    <div id="func">
+        <select  id="select">
+            <option >Sort By Price</option>
+            <option value="asc">Low To High</option>
+            <option value="des">High To Low</option>
+        </select>
+
+        <select  id="select1">
+            <option >Sort By Kelometers Driven</option>
+            <option value="des">Low To High</option>
+            <option value="asc">High To Low</option>
+        </select>
+
+        <select id="filter">
+            <option >Filter By Brand</option>
+            <option value="Tata">Tata</option>
+            <option value="BMW">BMW</option>
+            <option value="Suzuki">Suzuki</option>
+            <option value="Nano">Nano</option>
+        </select>
+    </div>
+    <div>
+        <h3 style="text-align: center;">Cars Data</h3>
+        <div id="container"></div>
+    </div>
+</body>
+</html>
+<script src="./cars.js"></script>
