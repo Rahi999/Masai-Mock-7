@@ -4,5 +4,5 @@
 A Small Mern Project From Masai School For Practice For The Mock-Assesment.
 <p>Contributor</p>
 <ul>
-  <li></li>
+  <li>Rahim Ansari</li>
 </ul>
