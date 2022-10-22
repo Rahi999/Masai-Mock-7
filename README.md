@@ -6,3 +6,10 @@ A Small Mern Project From Masai School For Practice For The Mock-Assesment.
 <ul>
   <li>Rahim Ansari</li>
 </ul>
+<p>Tech Stacks</p>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+  <li>Dom-Manipulation</li>
+</ul>
