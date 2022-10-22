@@ -12,4 +12,11 @@ A Small Mern Project From Masai School For Practice For The Mock-Assesment.
   <li>CSS</li>
   <li>JavaScript</li>
   <li>Dom-Manipulation</li>
+  <li>Heroku</li>
+  <li>Netlify</li>
+  <li>Vercel</li>
+</ul>
+<p>Areas Of Working</p>
+<ul>
+  <li>Build Whole Application Individually</li>
 </ul>
